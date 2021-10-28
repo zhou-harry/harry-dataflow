@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: harry-dataflow
+server:
+  port: 8082
