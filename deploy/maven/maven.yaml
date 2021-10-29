@@ -1,0 +1,7 @@
+maven:
+  localRepository: mylocal
+  remote-repositories:
+    repo1:
+      url: https://repo.spring.io/libs-snapshot-local
+    repo2:
+      url: https://repo.spring.io/libs-milestone-local
