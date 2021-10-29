@@ -1,5 +1,12 @@
 spring:
   application:
     name: harry-dataflow
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://192.168.72.128:3306/harry?useUnicode=true&serverTimezone=CTT&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: Abcd-1234
 server:
   port: 8082
+
